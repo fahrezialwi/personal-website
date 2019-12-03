@@ -1,0 +1,21 @@
+/* Own Style */
+
+.hero-section {
+    min-height: 90vh;
+    background-image: linear-gradient(to right,#051758, #1A3295);
+    color: white;
+}
+
+.timeline-section {
+    background-color: #ddd;
+}
+
+/* Library */
+
+.vertical-timeline {
+    padding: 5em 0;
+}
+
+.vertical-timeline-element-icon svg { 
+    width: 24px!important;
+}

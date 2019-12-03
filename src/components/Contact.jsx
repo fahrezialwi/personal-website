@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import '../styles/portfolio.css'
+import '../styles/contact.css'
 
-class Portfolio extends Component {
+class Contact extends Component {
     render() {
         return (
             <div>
-                Portfolio Component
+                Contact Component
             </div>
         )
     }
 }
 
-export default Portfolio
+export default Contact
