@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
@@ -8,7 +9,6 @@ import 'react-vertical-timeline-component/style.min.css'
 import '../styles/home.css'
 
 class Home extends Component {
-
     render() {
         return (
             <div>
@@ -19,13 +19,13 @@ class Home extends Component {
                                 FA
                             </div>
                             <div className="col-2">
-                                Portfolio
-                                Contact
+                                <Link to="/portfolio">Portfolio</Link>
+                                <Link to="/contact">Contact</Link>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-12">
-                                <h5>Hi, I'm Fahrezi Alwi</h5>
+                                <h2>Hi, I'm Fahrezi Alwi</h2>
                                 <p>I am pleased to introduce you to my work</p>
                                 <button className="btn btn-primary">See Portfolio</button>
                             </div>

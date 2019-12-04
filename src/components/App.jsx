@@ -6,7 +6,6 @@ import Contact from './Contact'
 import '../styles/global.css'
 
 class App extends Component {
-
     render() {
         return (
             <BrowserRouter>

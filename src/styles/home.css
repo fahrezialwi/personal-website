@@ -6,6 +6,15 @@
     color: white;
 }
 
+.hero-section a {
+    color: white;
+}
+
+.hero-section a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .timeline-section {
     background-color: #ddd;
 }
