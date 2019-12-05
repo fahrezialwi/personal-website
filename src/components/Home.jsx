@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
+import ProfilePicture from '../images/photo.jpg'
+import Header from './Header'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-vertical-timeline-component/style.min.css'
 import '../styles/home.css'
@@ -12,22 +13,18 @@ class Home extends Component {
     render() {
         return (
             <div>
+                <Header/>
                 <div className="hero-section">
                     <div className="container">
                         <div className="row">
-                            <div className="col-10">
-                                FA
+                            <div className="col-9">
+                                <h6>Hello, I'm</h6>
+                                <h1>Fahrezi Alwi</h1>
+                                <p>Experienced in developing front-end and user interface for websites and mobile apps.</p>
+                                <button className="btn btn-main">See Portfolio</button>
                             </div>
-                            <div className="col-2">
-                                <Link to="/portfolio">Portfolio</Link>
-                                <Link to="/contact">Contact</Link>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-12">
-                                <h2>Hi, I'm Fahrezi Alwi</h2>
-                                <p>I am pleased to introduce you to my work</p>
-                                <button className="btn btn-primary">See Portfolio</button>
+                            <div className="col-3">
+                                <img src={ProfilePicture} alt="Fahrezi Alwi" className="profile-picture"/>
                             </div>
                         </div>
                     </div>

@@ -37,6 +37,14 @@ a:hover {
     color: #333;
 }
 
+button {
+    border: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
 h1, h2 {
     font-family: Lato-Bold;
 }
@@ -47,4 +55,27 @@ h3, h4 {
 
 h5, h6 {
     font-family: Lato-Light;
+}
+
+/* Bootstrap */
+
+.btn-main {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    background-color: #06f;
+    padding: .375rem 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-main:hover {
+    background-color: #1875ff;
+    color: #fff;
+    text-decoration: none;
 }

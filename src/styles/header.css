@@ -1,0 +1,7 @@
+.navbar-main {
+    background-image: linear-gradient(to right,#051758, #1A3295);
+}
+
+.navbar-logo, .navbar-nav {
+    color: white;
+}

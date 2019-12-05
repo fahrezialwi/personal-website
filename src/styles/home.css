@@ -1,9 +1,12 @@
 /* Own Style */
 
 .hero-section {
-    min-height: 90vh;
     background-image: linear-gradient(to right,#051758, #1A3295);
     color: white;
+    min-height: 90%; 
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
 }
 
 .hero-section a {
@@ -13,6 +16,11 @@
 .hero-section a:hover {
     text-decoration: none;
     color: white;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100%;
 }
 
 .timeline-section {
