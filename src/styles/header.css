@@ -1,7 +1,39 @@
-.navbar-main {
-    background-image: linear-gradient(to right,#051758, #1A3295);
+.navbar-home {
+  background-image: linear-gradient(to right,#003F6D, #19828A);
 }
 
-.navbar-logo, .navbar-nav {
-    color: white;
+.navbar-menu {
+  background-color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff!important;
+}
+
+.navbar-logo-home {
+  color: #fff;
+}
+
+.navbar-logo-home h2 {
+  font-family: Lato-Black;
+  margin-bottom: 0px;
+}
+
+a:hover.navbar-logo-home {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-logo-menu {
+  color: #003F6D;
+}
+
+.navbar-logo-menu h2 {
+  font-family: Lato-Black;
+  margin-bottom: 0px;
+}
+
+a:hover.navbar-logo-menu {
+  text-decoration: none;
+  color: #003F6D;
 }

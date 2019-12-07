@@ -1,38 +1,66 @@
 /* Own Style */
 
 .hero-section {
-    background-image: linear-gradient(to right,#051758, #1A3295);
-    color: white;
-    min-height: 90%; 
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
+  background-image: linear-gradient(to right,#003f6f, #19828a);
+  color: white;
+  min-height: 80%; 
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero-section a {
-    color: white;
+  color: white;
 }
 
 .hero-section a:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 45px;
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 100%;
+  border-radius: 50%;
+  width: 100%;
 }
 
-.timeline-section {
-    background-color: #ddd;
+.contact-section {
+  background-image: linear-gradient(to right,#003F6D, #19828A);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* Library */
 
 .vertical-timeline {
-    padding: 5em 0;
+  padding: 5em 0;
+}
+
+.vertical-timeline::before {
+  background-color: #07627d;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 0px;
 }
 
 .vertical-timeline-element-icon svg { 
-    width: 24px!important;
+  width: 24px!important;
+}
+
+.vertical-timeline-element-content {
+  position: relative;
+  margin-left: 60px;
+  background: #fff;
+  border-radius: .25em;
+  padding: 1em;
+  box-shadow: 0px 0px 20px 0px #ddd;
+}
+
+.vertical-timeline-element-title {
+  color: #07627d;
 }

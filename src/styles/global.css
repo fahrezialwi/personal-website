@@ -1,81 +1,129 @@
 /* Font style */
 
 @font-face {
-    font-family: 'Lato-Light';
-    src: url(../fonts/Lato-Light.ttf) format('truetype');
+  font-family: 'Lato-Light';
+  src: url(../fonts/Lato-Light.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Lato-Regular';
-    src: url(../fonts/Lato-Regular.ttf) format('truetype');
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Lato-Bold';
-    src: url(../fonts/Lato-Bold.ttf) format('truetype');
+  font-family: 'Lato-Bold';
+  src: url(../fonts/Lato-Bold.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Lato-Black';
-    src: url(../fonts/Lato-Black.ttf) format('truetype');
+  font-family: 'Lato-Black';
+  src: url(../fonts/Lato-Black.ttf) format('truetype');
 }
 
 /* Browser style */
 
 body {
-    font-family: Lato-Light;
-    font-size: 16px;
-    color: #333;
+  font-family: Lato-Light;
+  font-size: 16px;
+  color: #333;
 }
 
 a {
-    color: #333;
+  color: #333;
 }
 
 a:hover {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 button {
-    border: 0;
+  border: 0;
 }
 
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 h1, h2 {
-    font-family: Lato-Bold;
+  font-family: Lato-Bold;
 }
 
 h3, h4 {
-    font-family: Lato-Regular;
+  font-family: Lato-Regular;
 }
 
 h5, h6 {
-    font-family: Lato-Light;
+  font-family: Lato-Light;
 }
 
 /* Bootstrap */
 
-.btn-main {
-    display: inline-block;
-    font-weight: 400;
-    color: #fff;
-    background-color: #06f;
-    padding: .375rem 1.2rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 20px;
-    text-align: center;
-    vertical-align: middle;
-    user-select: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+.btn-home {
+  display: inline-block;
+  font-weight: 400;
+  color: #003f6d;
+  background-color: #fff;
+  padding: .375rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.btn-main:hover {
-    background-color: #1875ff;
-    color: #fff;
-    text-decoration: none;
+.btn-home:hover {
+  background-color: #ddd;
+  color: #003f6d;
+  text-decoration: none;
+}
+
+.btn-menu {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  background-color: #19828a;
+  padding: .375rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-menu:hover {
+  background-color: #14676e;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Own style */
+
+.banner-section {
+  background-image: linear-gradient(to right,#003f6d, #19828a);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.not-allowed {
+  cursor: not-allowed !important;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+/* Library */
+
+.toast-container {
+  background-color:#14676e;
+  font-family: Lato-Light;
+  padding: .75rem 1.25rem;
+  border-radius: 5px;
+  color: #fff;
 }
