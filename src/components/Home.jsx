@@ -21,7 +21,7 @@ class Home extends Component {
               <div className="col-9 pr-5">
                 <h5>Hello, I am</h5>
                 <h1>Fahrezi Alwi</h1>
-                <p>I am a front-end developer experienced in developing front-end and user interface for websites and mobile apps. I am truly passionate about my work and always eager to learn about new technology in the web application.</p>
+                <p>I am a front-end developer experienced in developing front-end and user interface for websites. I am truly passionate about my work and always eager to learn about new technology in the web application.</p>
                 <Link to="/portfolio"><button className="btn btn-home mt-3">See Portfolio</button></Link>
               </div>
               <div className="col-3">
@@ -32,6 +32,21 @@ class Home extends Component {
         </div>
         <div className="timeline-section">
           <VerticalTimeline>
+          <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Apr 2018 - May 2019"
+              iconStyle={{ background: '#07627d', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faBriefcase}/>}
+            >
+              <h3 className="vertical-timeline-element-title">PT Jojonomic Indonesia</h3>
+              <h5 className="vertical-timeline-element-subtitle mt-2">Front-End Developer</h5>
+              <ul className="mt-3">
+                <li>Make Officeless Operating System (OOS) application using Vue.js frameworks, Vuex global store, Bootstrap Vue.</li>
+                <li>Build responsive Jojopro application using HTML, CSS, JQuery, PHP.</li>
+                <li>Develop custom application for clients based on Jojonomic application using Vue.js frameworks, Vuex.</li>
+                <li>Create own custom reusable component for rapid developing.</li>
+              </ul>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="Jul 2019 - Nov 2019"
